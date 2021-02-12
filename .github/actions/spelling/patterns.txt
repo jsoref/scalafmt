@@ -1,0 +1,28 @@
+# GitHub SHAs
+(?:\[[0-9a-f]+\]\(https:/|)/github\.com/[^/]+/[^/]+/[^/]+/[0-9a-f]+\b
+\bgithub\.com/[^/]+/[^/]+[@#][0-9a-f]+\b
+# githubusercontent
+/[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
+# gist github
+/gist\.github\.com/[^/]+/[0-9a-f]+
+
+# discord
+/discord(?:app\.com|\.gg)/(?:invite/)?[a-zA-Z0-9]{7,8}
+
+# mailgun
+\.api\.mailgun\.net/v3/domains/[0-9a-z]+\.mailgun.org/messages/[0-9a-zA-Z=@]*
+\b[0-9a-z]+.mailgun.org
+
+# hex digits including css/html color classes:
+(?:[\\0][xX]|\\u|[uU]\+|#x?|\%23)[0-9a-fA-FgGrR_]{2,}(?:[uU]?[lL]{0,2}|u\d+)\b
+
+# uuid:
+[<({"'][0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}['"})>]
+
+# ignore long runs of a single character:
+\b([A-Za-z])\g{-1}{3,}\b
+
+(?:\b|(?<=[a-z]))A+a+\b
+(?:\b|(?<=[a-z]))A{3,}\b
+(?:\b|(?<=[a-z]))B+b+\b
+(?:\b|(?<=[a-z]))B{3,}\b
