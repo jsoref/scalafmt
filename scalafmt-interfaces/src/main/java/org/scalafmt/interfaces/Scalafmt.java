@@ -79,7 +79,7 @@ public interface Scalafmt {
     Scalafmt withMavenRepositories(String ... repositories);
 
     /**
-     * Clear internal caches such as classloaded Scalafmt instances.
+     * Clear internal caches such as classloader Scalafmt instances.
      */
     void clear();
 
