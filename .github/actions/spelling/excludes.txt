@@ -1,0 +1,10 @@
+ignore$
+(?:^|/)(?i)LICEN[CS]E
+^\.github/
+\.gitattributes$
+\.ico$
+\.lock$
+\.png$
+\.sig$
+\.svg$
+^scalafmt$
