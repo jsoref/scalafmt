@@ -1592,7 +1592,7 @@ src/main/scala/file1.scala
 - No space before Decl.Type, fixes \#288 [\#328](https://github.com/scalameta/scalafmt/pull/328) ([olafurpg](https://github.com/olafurpg))
 - Fail fast instead of best-effort formatting [\#326](https://github.com/scalameta/scalafmt/pull/326) ([olafurpg](https://github.com/olafurpg))
 - Add macro benchmark. [\#320](https://github.com/scalameta/scalafmt/pull/320) ([olafurpg](https://github.com/olafurpg))
-- Correct all other mentions of "paretheses" [\#314](https://github.com/scalameta/scalafmt/pull/314) ([i-am-the-slime](https://github.com/i-am-the-slime))
+- Correct all other mentions of "parentheses" [\#314](https://github.com/scalameta/scalafmt/pull/314) ([i-am-the-slime](https://github.com/i-am-the-slime))
 - Typo in parentheses [\#313](https://github.com/scalameta/scalafmt/pull/313) ([i-am-the-slime](https://github.com/i-am-the-slime))
 - Fix typos [\#311](https://github.com/scalameta/scalafmt/pull/311) ([williamho](https://github.com/williamho))
 
