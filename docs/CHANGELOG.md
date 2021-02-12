@@ -848,7 +848,7 @@ src/main/scala/file1.scala
 
 **Merged pull requests:**
 
-- Fix trailing comma handling when followed by indenation-free comment [\#1230](https://github.com/scalameta/scalafmt/pull/1230) ([gabro](https://github.com/gabro))
+- Fix trailing comma handling when followed by indentation-free comment [\#1230](https://github.com/scalameta/scalafmt/pull/1230) ([gabro](https://github.com/gabro))
 - Add foursquare to adopters list [\#1229](https://github.com/scalameta/scalafmt/pull/1229) ([iantabolt](https://github.com/iantabolt))
 - Upgrade metaconfig [\#1226](https://github.com/scalameta/scalafmt/pull/1226) ([olafurpg](https://github.com/olafurpg))
 
